@@ -478,22 +478,24 @@ function autocomplete(inp, arr){
             }
         });
     }
-    inp.addEventListener("keydown", function(e){
-        var x = document.getElementById(this.id + "autocomplete-list");
-        if (x) x = x.getElementsByTagName("div");
-        if (e.keyCode == 40) {
-            currentFocus++;
-            addActive(x);
-        } else if (e.keyCode == 38) {
-            currentFocus--;
-            addActive(x);
-        } else if (e.keycode == 13) {
-            e.preventDefault();
-            if (currentFocus > -1) {
-                if (x) x[currentFocus].click();
+    if (inp) {
+        inp.addEventListener("keydown", function(e){
+            var x = document.getElementById(this.id + "autocomplete-list");
+            if (x) x = x.getElementsByTagName("div");
+            if (e.keyCode == 40) {
+                currentFocus++;
+                addActive(x);
+            } else if (e.keyCode == 38) {
+                currentFocus--;
+                addActive(x);
+            } else if (e.keycode == 13) {
+                e.preventDefault();
+                    if (currentFocus > -1) {
+                    if (x) x[currentFocus].click();
+                }
             }
-        }
-    });
+        });
+     }
     function addActive(x){
         if (!x) return false;
         removeActive(x);
