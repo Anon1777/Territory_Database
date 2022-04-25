@@ -454,6 +454,8 @@ var array = [
     ""
 ]
 
+autocomplete(document.getElementById("myInput"), array);
+
 function autocomplete(inp, arr){
     var currentFocus;
     inp.addEventListener("input", function(e) {
@@ -522,4 +524,3 @@ function autocomplete(inp, arr){
     });
 }
 
-autocomplete(document.getElementById("myInput"), array);
