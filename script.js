@@ -108,7 +108,7 @@ var array = [
     "District of Columbia",
     "Djibouti",
     "Dominica",
-    "Dominican Republi",
+    "Dominican Republic",
     "Dorset",
     "Drenthe",
     "Dubai",
