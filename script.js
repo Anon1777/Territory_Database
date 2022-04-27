@@ -5,7 +5,7 @@ var array = [
     "Ajman",
     "Alabama",
     "Alagoas",
-    "&Aring;land Islands",
+    "The &Aring;land Islands",
     "Alaska",
     "Albania",
     "Alberta",
