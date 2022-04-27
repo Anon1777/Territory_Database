@@ -432,7 +432,7 @@ var array = [
     "Wake Island",
     "Wales",
     "Wallis and Futuna",
-    "Walloon",
+    "Wallonia",
     "Washington",
     "West Virginia",
     "Western Australia",
