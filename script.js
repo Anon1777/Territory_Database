@@ -259,6 +259,7 @@ var array = [
     "Mozambique",
     "M&uuml;nster",
     "Murcia",
+    "Myanmar",
     "Namibia",
     "Nauru",
     "Navarre",
@@ -273,6 +274,7 @@ var array = [
     "New Mexico",
     "New South Wales",
     "New York",
+    "New Zealand",
     "Newfoundland and Labrador",
     "Nicaragua",
     "Niger",
@@ -310,6 +312,8 @@ var array = [
     "Paraiba",
     "Parana",
     "Pembrokeshire",
+    "Pennsylvania",
+    "Pernambuco",
     "Peru",
     "Philippines",
     "Piaui",
@@ -415,12 +419,13 @@ var array = [
     "United States of America",
     "United States Virgin Islands",
     "Upper Austria",
+    "Uruguay",
     "Utah",
     "Utrecht",
     "Uzbekistan",
     "Valencia",
     "Vanuatu",
-    "Vatican",
+    "Vatican City",
     "Venezuela",
     "Vermont",
     "Victoria",
@@ -440,6 +445,7 @@ var array = [
     "Wisconsin",
     "Wyoming",
     "Yap",
+    "Yemen",
     "Yorkshire",
     "Yukon",
     "Zambia",
@@ -522,3 +528,8 @@ function autocomplete(inp, arr){
 }
 
 autocomplete(document.getElementById("myInput"), array);
+
+function sendToFile(event){
+    var myInput = getElementById("myInput")
+    location.assign("/Page/" + myInput.value + ".html")
+}
