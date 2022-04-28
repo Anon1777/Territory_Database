@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
 .autocomplete {
@@ -19,11 +25,13 @@ input[type=text]:active, input[type=text]:focus {
 
 input[type=text] {
     background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
 }
 
 input[type=submit] {
     background-color: dodgerblue;
-    color: white
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .autocomplete-items {
@@ -42,6 +50,7 @@ input[type=submit] {
     cursor: pointer;
     background-color: #fff;
     border-bottom: 1px solid #d4d4d4;
+    border-radius: 0 0 10px 0;
 }
 
 .autocomplete-items div:hover {
