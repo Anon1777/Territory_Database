@@ -32,6 +32,7 @@ input[type=submit] {
     background-color: dodgerblue;
     color: white;
     font-family: 'Raleway', sans-serif;
+    cursor: pointer;
 }
 
 .autocomplete-items {

@@ -532,9 +532,4 @@ autocomplete(document.getElementById("myInput"), array);
 function sendToFile(event){
     var myInput = getElementById("myInput").toLowerCase();
     location.assign("/Page/" + myInput.value + ".html");
-} 
-   
-/* var object = {"countries": {"Abu Dhabi": {"flag": "img/abu_dhabi.gif"}, {"pop": "1.45M"}},
-                           {"Austria": {"flag": "img/austria.gif"}, {"pop": "8.93M"}}; 
-
-object["country name"] */
+}
