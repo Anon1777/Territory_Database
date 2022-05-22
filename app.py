@@ -5,6 +5,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/austria")
-def austria():
-    return render_template("austria.html")
+#@app.route("/austria")
+#def austria():
+#    return render_template("austria.html")  
